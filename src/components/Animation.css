@@ -1,0 +1,69 @@
+.centerdiv {
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.sun {
+    animation: test 20s infinite;
+}
+
+/* mercury */
+.maindiv1 {
+    animation: test 10s infinite linear;
+    transform-origin: center;
+}
+
+/* venus */
+.maindiv2 {
+    animation: test 20s infinite linear;
+    transform-origin: center;
+}
+
+/* earth */
+.maindiv3 {
+    animation: test 30s infinite linear;
+    transform-origin: center;
+}
+
+/* mars */
+.maindiv4 {
+    animation: test 40s infinite linear reverse;
+    transform-origin: center;
+}
+
+/* jupiter */
+.maindiv5 {
+    animation: test 50s infinite linear;
+    transform-origin: center;
+}
+
+/* saturn */
+.maindiv6 {
+    animation: test 60s infinite linear;
+    transform-origin: center;
+}
+
+/* uranus */
+.maindiv7 {
+    animation: test 70s infinite linear;
+    transform-origin: center;
+}
+
+/* neptune */
+.maindiv8 {
+    animation: test 80s infinite linear;
+    transform-origin: center;
+}
+
+@keyframes test{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
